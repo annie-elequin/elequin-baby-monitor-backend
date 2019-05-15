@@ -19,7 +19,7 @@ app.get('/send-email', (req, res) => {
   const mailOptions = {
     from: 'elequinbabymonitor@gmail.com',
     // to: 'annie@elequin.io',
-    to: 'bbrooklynrider96@gmail.com',
+    to: 'bbrooklynrider96@gmail.com, annie@elequin.io',
     subject: 'BABY MONITOR',
     text: 'Sounds like the baby might be awake.'
   };
